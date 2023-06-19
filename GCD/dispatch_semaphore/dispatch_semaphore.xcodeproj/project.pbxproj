@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7B721952A3B5AAA0097B476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721942A3B5AAA0097B476 /* AppDelegate.m */; };
+		E7B721982A3B5AAA0097B476 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721972A3B5AAA0097B476 /* SceneDelegate.m */; };
+		E7B7219B2A3B5AAA0097B476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B7219A2A3B5AAA0097B476 /* ViewController.m */; };
+		E7B7219E2A3B5AAA0097B476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B7219C2A3B5AAA0097B476 /* Main.storyboard */; };
+		E7B721A02A3B5AAB0097B476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B7219F2A3B5AAB0097B476 /* Assets.xcassets */; };
+		E7B721A32A3B5AAB0097B476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B721A12A3B5AAB0097B476 /* LaunchScreen.storyboard */; };
+		E7B721A62A3B5AAB0097B476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721A52A3B5AAB0097B476 /* main.m */; };
+		E7B721B02A3B5AAB0097B476 /* dispatch_semaphoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721AF2A3B5AAB0097B476 /* dispatch_semaphoreTests.m */; };
+		E7B721BA2A3B5AAB0097B476 /* dispatch_semaphoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721B92A3B5AAB0097B476 /* dispatch_semaphoreUITests.m */; };
+		E7B721BC2A3B5AAB0097B476 /* dispatch_semaphoreUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B721BB2A3B5AAB0097B476 /* dispatch_semaphoreUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B721AC2A3B5AAB0097B476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B721882A3B5AAA0097B476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B7218F2A3B5AAA0097B476;
+			remoteInfo = dispatch_semaphore;
+		};
+		E7B721B62A3B5AAB0097B476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B721882A3B5AAA0097B476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B7218F2A3B5AAA0097B476;
+			remoteInfo = dispatch_semaphore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7B721902A3B5AAA0097B476 /* dispatch_semaphore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dispatch_semaphore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B721932A3B5AAA0097B476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7B721942A3B5AAA0097B476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7B721962A3B5AAA0097B476 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E7B721972A3B5AAA0097B476 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E7B721992A3B5AAA0097B476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7B7219A2A3B5AAA0097B476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7B7219D2A3B5AAA0097B476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B7219F2A3B5AAB0097B476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B721A22A3B5AAB0097B476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7B721A42A3B5AAB0097B476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B721A52A3B5AAB0097B476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B721AB2A3B5AAB0097B476 /* dispatch_semaphoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dispatch_semaphoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B721AF2A3B5AAB0097B476 /* dispatch_semaphoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreTests.m; sourceTree = "<group>"; };
+		E7B721B52A3B5AAB0097B476 /* dispatch_semaphoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dispatch_semaphoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B721B92A3B5AAB0097B476 /* dispatch_semaphoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreUITests.m; sourceTree = "<group>"; };
+		E7B721BB2A3B5AAB0097B476 /* dispatch_semaphoreUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B7218D2A3B5AAA0097B476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721A82A3B5AAB0097B476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721B22A3B5AAB0097B476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B721872A3B5AAA0097B476 = {
+			isa = PBXGroup;
+			children = (
+				E7B721922A3B5AAA0097B476 /* dispatch_semaphore */,
+				E7B721AE2A3B5AAB0097B476 /* dispatch_semaphoreTests */,
+				E7B721B82A3B5AAB0097B476 /* dispatch_semaphoreUITests */,
+				E7B721912A3B5AAA0097B476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B721912A3B5AAA0097B476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B721902A3B5AAA0097B476 /* dispatch_semaphore.app */,
+				E7B721AB2A3B5AAB0097B476 /* dispatch_semaphoreTests.xctest */,
+				E7B721B52A3B5AAB0097B476 /* dispatch_semaphoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B721922A3B5AAA0097B476 /* dispatch_semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				E7B721932A3B5AAA0097B476 /* AppDelegate.h */,
+				E7B721942A3B5AAA0097B476 /* AppDelegate.m */,
+				E7B721962A3B5AAA0097B476 /* SceneDelegate.h */,
+				E7B721972A3B5AAA0097B476 /* SceneDelegate.m */,
+				E7B721992A3B5AAA0097B476 /* ViewController.h */,
+				E7B7219A2A3B5AAA0097B476 /* ViewController.m */,
+				E7B7219C2A3B5AAA0097B476 /* Main.storyboard */,
+				E7B7219F2A3B5AAB0097B476 /* Assets.xcassets */,
+				E7B721A12A3B5AAB0097B476 /* LaunchScreen.storyboard */,
+				E7B721A42A3B5AAB0097B476 /* Info.plist */,
+				E7B721A52A3B5AAB0097B476 /* main.m */,
+			);
+			path = dispatch_semaphore;
+			sourceTree = "<group>";
+		};
+		E7B721AE2A3B5AAB0097B476 /* dispatch_semaphoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7B721AF2A3B5AAB0097B476 /* dispatch_semaphoreTests.m */,
+			);
+			path = dispatch_semaphoreTests;
+			sourceTree = "<group>";
+		};
+		E7B721B82A3B5AAB0097B476 /* dispatch_semaphoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7B721B92A3B5AAB0097B476 /* dispatch_semaphoreUITests.m */,
+				E7B721BB2A3B5AAB0097B476 /* dispatch_semaphoreUITestsLaunchTests.m */,
+			);
+			path = dispatch_semaphoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B7218F2A3B5AAA0097B476 /* dispatch_semaphore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B721BF2A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphore" */;
+			buildPhases = (
+				E7B7218C2A3B5AAA0097B476 /* Sources */,
+				E7B7218D2A3B5AAA0097B476 /* Frameworks */,
+				E7B7218E2A3B5AAA0097B476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dispatch_semaphore;
+			productName = dispatch_semaphore;
+			productReference = E7B721902A3B5AAA0097B476 /* dispatch_semaphore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B721AA2A3B5AAB0097B476 /* dispatch_semaphoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B721C22A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphoreTests" */;
+			buildPhases = (
+				E7B721A72A3B5AAB0097B476 /* Sources */,
+				E7B721A82A3B5AAB0097B476 /* Frameworks */,
+				E7B721A92A3B5AAB0097B476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B721AD2A3B5AAB0097B476 /* PBXTargetDependency */,
+			);
+			name = dispatch_semaphoreTests;
+			productName = dispatch_semaphoreTests;
+			productReference = E7B721AB2A3B5AAB0097B476 /* dispatch_semaphoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7B721B42A3B5AAB0097B476 /* dispatch_semaphoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B721C52A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphoreUITests" */;
+			buildPhases = (
+				E7B721B12A3B5AAB0097B476 /* Sources */,
+				E7B721B22A3B5AAB0097B476 /* Frameworks */,
+				E7B721B32A3B5AAB0097B476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B721B72A3B5AAB0097B476 /* PBXTargetDependency */,
+			);
+			name = dispatch_semaphoreUITests;
+			productName = dispatch_semaphoreUITests;
+			productReference = E7B721B52A3B5AAB0097B476 /* dispatch_semaphoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B721882A3B5AAA0097B476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7B7218F2A3B5AAA0097B476 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E7B721AA2A3B5AAB0097B476 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7B7218F2A3B5AAA0097B476;
+					};
+					E7B721B42A3B5AAB0097B476 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E7B7218F2A3B5AAA0097B476;
+					};
+				};
+			};
+			buildConfigurationList = E7B7218B2A3B5AAA0097B476 /* Build configuration list for PBXProject "dispatch_semaphore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B721872A3B5AAA0097B476;
+			productRefGroup = E7B721912A3B5AAA0097B476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B7218F2A3B5AAA0097B476 /* dispatch_semaphore */,
+				E7B721AA2A3B5AAB0097B476 /* dispatch_semaphoreTests */,
+				E7B721B42A3B5AAB0097B476 /* dispatch_semaphoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B7218E2A3B5AAA0097B476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B721A32A3B5AAB0097B476 /* LaunchScreen.storyboard in Resources */,
+				E7B721A02A3B5AAB0097B476 /* Assets.xcassets in Resources */,
+				E7B7219E2A3B5AAA0097B476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721A92A3B5AAB0097B476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721B32A3B5AAB0097B476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B7218C2A3B5AAA0097B476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B7219B2A3B5AAA0097B476 /* ViewController.m in Sources */,
+				E7B721952A3B5AAA0097B476 /* AppDelegate.m in Sources */,
+				E7B721A62A3B5AAB0097B476 /* main.m in Sources */,
+				E7B721982A3B5AAA0097B476 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721A72A3B5AAB0097B476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B721B02A3B5AAB0097B476 /* dispatch_semaphoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B721B12A3B5AAB0097B476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B721BA2A3B5AAB0097B476 /* dispatch_semaphoreUITests.m in Sources */,
+				E7B721BC2A3B5AAB0097B476 /* dispatch_semaphoreUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7B721AD2A3B5AAB0097B476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B7218F2A3B5AAA0097B476 /* dispatch_semaphore */;
+			targetProxy = E7B721AC2A3B5AAB0097B476 /* PBXContainerItemProxy */;
+		};
+		E7B721B72A3B5AAB0097B476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B7218F2A3B5AAA0097B476 /* dispatch_semaphore */;
+			targetProxy = E7B721B62A3B5AAB0097B476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B7219C2A3B5AAA0097B476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B7219D2A3B5AAA0097B476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B721A12A3B5AAB0097B476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B721A22A3B5AAB0097B476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B721BD2A3B5AAB0097B476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7B721BE2A3B5AAB0097B476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B721C02A3B5AAB0097B476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dispatch_semaphore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B721C12A3B5AAB0097B476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = dispatch_semaphore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7B721C32A3B5AAB0097B476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dispatch_semaphore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dispatch_semaphore";
+			};
+			name = Debug;
+		};
+		E7B721C42A3B5AAB0097B476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dispatch_semaphore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dispatch_semaphore";
+			};
+			name = Release;
+		};
+		E7B721C62A3B5AAB0097B476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dispatch_semaphore;
+			};
+			name = Debug;
+		};
+		E7B721C72A3B5AAB0097B476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.mingyuefly.dispatch-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dispatch_semaphore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B7218B2A3B5AAA0097B476 /* Build configuration list for PBXProject "dispatch_semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B721BD2A3B5AAB0097B476 /* Debug */,
+				E7B721BE2A3B5AAB0097B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B721BF2A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B721C02A3B5AAB0097B476 /* Debug */,
+				E7B721C12A3B5AAB0097B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B721C22A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B721C32A3B5AAB0097B476 /* Debug */,
+				E7B721C42A3B5AAB0097B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B721C52A3B5AAB0097B476 /* Build configuration list for PBXNativeTarget "dispatch_semaphoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B721C62A3B5AAB0097B476 /* Debug */,
+				E7B721C72A3B5AAB0097B476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B721882A3B5AAA0097B476 /* Project object */;
+}
