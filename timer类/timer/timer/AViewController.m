@@ -9,6 +9,7 @@
 #import "AViewController.h"
 #import <objc/runtime.h>
 
+// 可以将MYProxy引入项目全局，整个项目只需要这一个MYProxy类
 @interface MYProxy : NSProxy
 
 @property (nonatomic, weak) id target;
